@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
+//boang
 // Redirect to the appropriate dashboard based on user role
 Route::get('/dashboard', function () {
     $user = auth()->user();
